@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- TITLE (SEO PALING KUAT) -->
+    <title>
+      Koffvjay Coffee Juwana | Coffee Shop Juwana & Pati – Tempat Nongkrong
+      Hidden Gem
+    </title>
+
+    <!-- META DESCRIPTION -->
+    <meta
+      name="description"
+      content="Koffvjay Coffee Juwana adalah coffee shop di Juwana, Pati dengan biji kopi premium Indonesia. Tempat nongkrong hidden gem di Pati untuk santai, kerja, dan kumpul."
+    />
+
+    <!-- KEYWORDS (masih berguna untuk lokal SEO) -->
+    <meta
+      name="keywords"
+      content="coffee shop juwana, kopi juwana, coffe shop juwana, coffee shop pati, kopi pati, hidden gem juwana, nongkrong di pati, tempat nongkrong juwana, kedai kopi juwana"
+    />
+
+    <!-- AUTHOR -->
+    <meta name="author" content="Koffvjay Coffee Juwana" />
+
+    <!-- GEO TARGET (LOCAL SEO) -->
+    <meta name="geo.region" content="ID-JT" />
+    <meta name="geo.placename" content="Juwana, Pati" />
+    <meta name="geo.position" content="-6.7097074;111.1460108" />
+    <meta name="ICBM" content="-6.7097074, 111.1460108" />
+
+    <!-- OPEN GRAPH (Facebook, WhatsApp, Instagram) -->
+    <meta property="og:type" content="business.business" />
+    <meta
+      property="og:title"
+      content="Koffvjay Coffee Juwana | Coffee Shop & Tempat Nongkrong di Pati"
+    />
+    <meta
+      property="og:description"
+      content="Coffee shop di Juwana, Pati dengan suasana nyaman dan kopi premium Indonesia. Hidden gem untuk nongkrong di Pati."
+    />
+    <meta property="og:image" content="img/og-image.jpg" />
+    <meta property="og:site_name" content="Koffvjay Coffee Juwana" />
+    <meta property="og:locale" content="id_ID" />
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Koffvjay Coffee Juwana" />
+    <meta
+      name="twitter:description"
+      content="Coffee shop Juwana & Pati – tempat nongkrong hidden gem dengan kopi premium."
+    />
+    <meta name="twitter:image" content="img/og-image.jpg" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="img/logo-dark.png" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- NAV -->
+    <nav class="nav" id="nav">
+      <div class="container nav-inner">
+        <a class="brand" href="#top">
+          <span class="logo-box">
+            <img
+              src="img/logo-white.png"
+              class="brand-logo logo-white"
+              alt="Logo white"
+            />
+            <img
+              src="img/logo-dark.png"
+              class="brand-logo logo-dark"
+              alt="Logo dark"
+            />
+          </span>
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#store">Store</a>
+          <a href="#contact">Contact</a>
+          <button class="btn btn-primary" id="orderNowBtn">Order Now</button>
+        </div>
+
+        <div class="nav-actions">
+          <button class="icon-btn" id="cartBtn" aria-label="Open cart">
+            🛍️ <span class="badge" id="cartCount">0</span>
+          </button>
+          <button class="icon-btn" id="menuBtn" aria-label="Open menu">
+            ☰
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" class="m-link">About</a>
+        <a href="#menu" class="m-link">Menu</a>
+        <a href="#store" class="m-link">Store</a>
+        <a href="#contact" class="m-link">Contact</a>
+        <button class="btn btn-primary w-full" id="orderNowBtnMobile">
+          Order Now
+        </button>
+      </div>
+    </nav>
+
+    <!-- HERO / SLIDER -->
+    <header class="hero" id="top">
+      <div class="slide" id="slideBg"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <h1 id="slideTitle">Grind The Essentials</h1>
+        <p id="slideSubtitle">
+          Dibuat dari biji kopi Indonesia pilihan untuk pengalaman minum kopi
+          terbaik setiap hari
+        </p>
+        <div class="hero-cta">
+          <button class="btn btn-primary" id="exploreBtn">Explore Menu</button>
+          <button class="btn btn-ghost" id="storeBtn">Find Store</button>
+        </div>
+      </div>
+
+      <button
+        class="hero-arrow left"
+        id="prevSlide"
+        aria-label="Previous slide"
+      >
+        ‹
+      </button>
+      <button class="hero-arrow right" id="nextSlide" aria-label="Next slide">
+        ›
+      </button>
+
+      <div class="hero-dots" id="dots"></div>
+    </header>
+    <!-- SOCIAL BAR (below hero, above menu) -->
+    <section class="social-bar">
+      <div class="container social-inner">
+        <a
+          class="social-chip"
+          href="https://wa.me/+6287785728311"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="img/whatsapp.png" alt="WhatsApp" class="social-icon" />
+        </a>
+
+        <a
+          class="social-chip"
+          href="https://www.instagram.com/koffvjay_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="img/instagram.png" alt="Instagram" class="social-icon" />
+        </a>
+
+        <a
+          class="social-chip"
+          href="https://www.tiktok.com/@USERNAME_KAMU"
+          target="_blank"
+          rel="noopener"
+        >
+          <img src="img/tiktok.png" alt="TikTok" class="social-icon" />
+        </a>
+      </div>
+    </section>
+
+    <!-- MENU / PRODUCTS -->
+    <section class="section white" id="menu">
+      <div class="container">
+        <div class="section-head">
+          <h2>Our Signature Menu</h2>
+          <p>Handcrafted with premium Indonesian coffee beans</p>
+        </div>
+        <div class="center mt-24">
+          <button class="btn btn-primary" id="viewMenuBtn">
+            View Our Menu
+          </button>
+        </div>
+        <div id="menuWrapper" class="menu-wrapper">
+          <div id="productGrid"></div>
+
+          <div class="center mt-24">
+            <button class="btn btn-dark" id="viewCartBtn">View Cart</button>
+            <button class="btn btn-primary" id="customOrderBtn">
+              Custom Order / Event
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section green" id="about">
+      <div class="container about">
+        <div class="about-img">
+          <img src="img/SOFT OPEN KOFFVJAY-11.jpg" alt="Coffee beans" />
+        </div>
+        <div class="about-text">
+          <h2>Premium Indonesian Coffee</h2>
+          <p>
+            Koffvjay Coffee Juwana adalah coffee shop di Juwana, Pati yang
+            menjadi tempat nongkrong favorit untuk pecinta kopi. Menghadirkan
+            biji kopi premium Indonesia dengan suasana nyaman, cocok untuk
+            santai, kerja, maupun kumpul bersama teman di Pati.
+          </p>
+          <p>
+            Kami menggunakan biji kopi pilihan terbaik dari berbagai daerah di
+            Indonesia. Setiap cangkir diseduh dengan sempurna untuk memberikan
+            pengalaman yang tak terlupakan.Dari perkebunan hingga cangkir Anda,
+            kami memastikan setiap langkah dilakukan dengan standar kualitas
+            tertinggi.
+          </p>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-num">100%</div>
+              <div class="stat-label">Biji kopi lokal</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">15+</div>
+              <div class="stat-label">Varian menu</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">3</div>
+              <div class="stat-label">Cabang Jakarta</div>
+            </div>
+          </div>
+
+          <button class="btn btn-primary" id="learnMoreBtn">Find Store</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section white" id="store">
+      <div class="container">
+        <div class="section-head">
+          <h2>Temukan Kami di Sini</h2>
+          <p>Kunjungi langsung kedai kami dan rasakan suasananya</p>
+        </div>
+
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps?q=-6.7097074,111.1460108&z=17&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+      <div class="center mt-24">
+        <a
+          href="https://maps.app.goo.gl/QecWFsqWNKMxw8xi6"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          Buka di Google Maps
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section green" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact Us</h2>
+          <p>Pertanyaan, kerja sama, atau pesanan event? Kirim pesan aja.</p>
+        </div>
+
+        <div class="contact">
+          <div class="card">
+            <h3>CoffeeHub Support</h3>
+            <div class="info">
+              <div>📞 +62 877-8572-8311</div>
+              <div>✉️ hello@coffeehub.id</div>
+              <div>📍 Juwana, Pati</div>
+              <div>🕒 Senin-Sabtu • 16:00 - 23:00</div>
+            </div>
+
+            <div class="callout">
+              <p>
+                Untuk order cepat, kamu bisa checkout via WhatsApp dari cart.
+              </p>
+              <button class="btn btn-primary" id="openCartFromContact">
+                Open Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>Send a Message</h3>
+            <form id="contactForm">
+              <label>Name</label>
+              <input required name="name" placeholder="Nama kamu" />
+
+              <label>Email</label>
+              <input
+                required
+                type="email"
+                name="email"
+                placeholder="nama@email.com"
+              />
+
+              <label>Message</label>
+              <textarea
+                required
+                name="message"
+                rows="5"
+                placeholder="Tulis pesan kamu..."
+              ></textarea>
+
+              <button class="btn btn-primary" type="submit">
+                Send Message
+              </button>
+              <div class="sent" id="sentMsg">
+                Pesan terkirim! Kami akan balas secepatnya 🙌
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <img
+              src="img/logo-white.PNG"
+              alt="Logo CoffeeHub"
+              class="footer-logo"
+            />
+          </div>
+
+          <p class="muted">Premium Indonesian coffee for everyone</p>
+        </div>
+
+        <div>
+          <h4>Quick Links</h4>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#store">Store</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <p class="muted">+62 877-8572-8311</p>
+          <p class="muted">Juwana, Pati</p>
+          <p class="muted">hello@coffeehub.id</p>
+        </div>
+
+        <div>
+          <h4>Follow Us</h4>
+          <div class="social">
+            <a
+              href="https://www.instagram.com/koffvjay_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              >Instagram</a
+            >
+            <a href="#">Tik Tok</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        © 2026 Koffvjay. All rights reserved.
+        <p>Website dari: 087827730791</p>
+      </div>
+    </footer>
+
+    <!-- CART DRAWER -->
+    <div class="drawer" id="drawer">
+      <div class="drawer-backdrop" id="drawerBackdrop"></div>
+      <div class="drawer-panel" role="dialog" aria-modal="true">
+        <div class="drawer-head">
+          <h3>Your Cart</h3>
+          <button class="icon-btn" id="closeDrawer" aria-label="Close cart">
+            ✕
+          </button>
+        </div>
+
+        <div class="drawer-body" id="cartItems"></div>
+
+        <div class="drawer-foot">
+          <div class="total">
+            <span>Total</span>
+            <strong id="cartTotal">Rp0</strong>
+          </div>
+          <button class="btn btn-primary w-full" id="waCheckout">
+            Checkout via WhatsApp
+          </button>
+          <button class="btn btn-light w-full" id="clearCart">
+            Clear Cart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
